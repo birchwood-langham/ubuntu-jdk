@@ -1,4 +1,8 @@
-FROM birchwoodlangham/ubuntu-base:16.04
+FROM birchwoodlangham/ubuntu-base:latest
+
+MAINTAINER Tan Quach <tan.quach@birchwoodlangham.com>
+
+ENV DEBIAN_FRONTEND noninteractive
 
 RUN add-apt-repository -y ppa:webupd8team/java && \
 		echo debconf shared/accepted-oracle-license-v1-1 select true | debconf-set-selections && \

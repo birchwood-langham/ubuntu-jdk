@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-docker build -t birchwoodlangham/ubuntu-jdk:1.8.0_144 .
+docker build -t birchwoodlangham/ubuntu-jdk:2017-10 .
