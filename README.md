@@ -1,6 +1,6 @@
-# Ubuntu Base Docker image with Oracle JDK 1.8
+# Ubuntu Base Docker image with OpenJDK 8
 
-This docker image builds upon the Ubuntu-base image by adding Open JDK 8.
+This docker image builds upon the Ubuntu-base image by adding OpenJDK 8.
 
 Additionally, I have added maven and ant build tools.
 
